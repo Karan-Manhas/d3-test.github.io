@@ -11,13 +11,3 @@ body {
     font-family: Arial, sans-serif;
     color: #fff; 
 }
-
-       .bar {
-            fill: steelblue;
-        }
-
-        path {
-            fill: #ccc;
-            stroke: #fff;
-            stroke-width: 0.5;
-        }
