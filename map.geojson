@@ -7,7 +7,7 @@
         "name": "United States"
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [-124.848974, 49.000239],
@@ -25,7 +25,7 @@
         "name": "Canada"
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [-141.0, 60.0],
@@ -43,7 +43,7 @@
         "name": "Mexico"
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiLineString",
         "coordinates": [
           [
             [-117.12776, 32.53534],

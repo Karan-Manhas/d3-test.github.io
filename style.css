@@ -11,3 +11,39 @@ body {
     font-family: Arial, sans-serif;
     color: #fff; 
 }
+
+.map-path {
+    fill: rgba(255, 255, 255, 0.5); /* Fill color for countries with transparency */
+    stroke: #000; /* Stroke color for boundaries (black) */
+    stroke-width: 1; /* Width of the boundary lines */
+}
+
+.country-label {
+    font-size: 10px; /* Adjust the font size for country labels */
+    fill: #fff; /* Font color for labels */
+    text-anchor: middle; /* Center the text horizontally */
+}
+
+.topography-line {
+    fill: none; /* No fill for topography lines */
+    stroke: #999; /* Stroke color for topography lines */
+    stroke-width: 0.5; /* Width of the topography lines */
+}
+
+/* Highlight style for interactivity */
+.boundary.highlight {
+    stroke: red; /* Change stroke color on highlight */
+    stroke-width: 2; /* Increase stroke width on highlight */
+    fill-opacity: 0.5; /* Adjust fill opacity on highlight */
+}
+
+/* Tooltip styles */
+.tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 5px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+}
