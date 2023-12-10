@@ -14,7 +14,7 @@ const projection = d3.geoNaturalEarth1()
 const path = d3.geoPath().projection(projection);
 
 // Load the GeoJSON data
-d3.json("https://raw.githubusercontent.com/Karan-Manhas/d3-test.github.io/blob/main/countries.geojson.json").then(function (data) {
+d3.json("https://raw.githubusercontent.com/Karan-Manhas/d3-test.github.io/main/map.geojson").then(function (data) {
     svg.selectAll("path")
         .data(data.features)
         .enter()
